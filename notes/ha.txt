@@ -1,5 +1,7 @@
 Some more overview of different techniques
 https://ijettjournal.org/assets/Volume-70/Issue-4/IJETT-V70I4P205.pdf
 
+https://www.researchgate.net/publication/267638940_Image_Stitching_based_on_Feature_Extraction_Techniques_A_Survey
+
 Images stitching with harris corner detector and RANSAC
 https://github.com/xuwenzhe/EECS442-Image-Stitching
