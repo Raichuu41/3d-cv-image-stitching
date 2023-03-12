@@ -7,3 +7,4 @@
 - Harris corner detector
     de-noising should be done before detecting corners
 - Focus on illimunation and viewpoint changes, noise removal and changed due to blurriness
+- Idea: Go deep instead of wide (play with image processing before applying techniques)
