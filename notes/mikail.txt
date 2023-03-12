@@ -1,0 +1,9 @@
+- SURF (Speeded Up Robust Features)
+    bad at illumination changes, viewpoint changes
+- FAST (Features from Accelerated Segment Test)
+    detects too many features
+- MSER (Maximally Stable Extremal Regions)
+    highest sensitiveness to blurring changes
+- Harris corner detector
+    de-noising should be done before detecting corners
+- Focus on illimunation and viewpoint changes, noise removal and changed due to blurriness
