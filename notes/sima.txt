@@ -3,3 +3,12 @@ https://github.com/opencv/opencv/blob/master/samples/python/stitching_detailed.p
 
 #some sample pictures
 https://github.com/elpidakrp/HW2_create_panorama
+
+
+
+#some more papers
+https://www.researchgate.net/profile/Mohammed-Elmogy/publication/267638940_Image_Stitching_based_on_Feature_Extraction_Techniques_A_Survey/links/5456ab440cf2cf51648032c6/Image-Stitching-based-on-Feature-Extraction-Techniques-A-Survey.pdf
+
+https://d1wqtxts1xzle7.cloudfront.net/54619590/IRJET-V3I4439-libre.pdf?1507116228=&response-content-disposition=inline%3B+filename%3DImage_Stitching_using_Harris_Feature_Det.pdf&Expires=1678642557&Signature=fR2B1~Js2-ddxWdxMuQPo0f9hA3-9wmI~sF176T~eb6BzXJqGCmVgexyWJB1ayq4JfMhpZjkdgDnYduS-7~V1e9wp1q0A8Ea55Y88ewc33SP1kVSF4gH1Vi8xPvtLa7XEo0XcBNVEeRjhGpyv-srZoOKu9sZqFI1V1fbJfCGQ81qneD~sJ~2mTBzUN7yC3affpcU4hohmwNc84xEqW2~6oVfXUCD3mHky2r4~N1Mf96VqnGEuRwoXglLyWZFw87-Id7OimvVufK0YEpAig1jOqdvipDR6-CAwCpA1FMXxPDHx~-V09irNbB00-BNLrd6sB~77TFaXuFuGxhnkmHpMQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
+http://pen.ius.edu.ba/index.php/pen/article/view/2902/1109
