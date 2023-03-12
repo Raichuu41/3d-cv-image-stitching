@@ -3,6 +3,7 @@ https://github.com/opencv/opencv/blob/master/samples/python/stitching_detailed.p
 
 #some sample pictures
 https://github.com/elpidakrp/HW2_create_panorama
+https://github.com/SSARCandy/panoramas-image-stitching/tree/master/input_image
 
 
 
