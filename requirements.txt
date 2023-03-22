@@ -6,3 +6,5 @@ pillow
 scikit-image
 scipy
 matplotlib
+opencv-python
+opencv-contrib-python
