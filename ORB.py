@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import imutils
+import math
 
 
 def extract_features(image):
@@ -12,7 +13,6 @@ def extract_features(image):
 
     # Find keypoints and descriptors in the image
     kp, des = orb.detectAndCompute(gray, None)
-
     return kp, des
 
 
@@ -71,6 +71,9 @@ def main():
     # Warp right image to align with left image
     img_aligned = warp_images(img_left, img_right, H)
 
+    # Resize img_aligned to the same size as img_left
+    img_aligned_resized = cv2.resize(img_aligned, (img_left.shape[1], img_left.shape[0]))
+
     # Blend images
     stitcher = cv2.createStitcher() if imutils.is_cv3() else cv2.Stitcher_create()
     (status, stitched) = stitcher.stitch([img_left, img_right])
@@ -78,6 +81,17 @@ def main():
     # Show the result
     cv2.imshow("Stitched", stitched)
     cv2.waitKey(0)
+
+    # Resize img_aligned to have the same size as stitched
+    img_aligned = cv2.resize(img_aligned, (stitched.shape[1], stitched.shape[0]))
+
+    # Calculate MSE
+    mse = np.mean((stitched - img_aligned)**2)
+    print("MSE: ", mse)
+
+    # Calculate PSNR
+    psnr = 10 * math.log10((255 ** 2) / mse)
+    print("PSNR: ", psnr)
 
 if __name__ == '__main__':
     main()
