@@ -1,3 +1,3 @@
 # 3d-cv-image-stitching
 
-Use Python 3.11
+The code is written and tested in Python 3.11
